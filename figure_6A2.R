@@ -16,7 +16,7 @@
 #' @examples 
 #' create_figure6A2()
 
-create_figure6A2 <- function(data_folder = "data/figure6/FigureA/protein_familiy_data.csv",
+create_figure_6A2 <- function(data_folder = "data/figure6/FigureA/protein_familiy_data.csv",
                            rep = 0.5,
                            use_gap_corrected=T,
                            seperate=F){
