@@ -31,7 +31,7 @@ figure6_A1 <- create_figure_6A1()
 figure6_A2 <- create_figure_6A2()
 figure6_B <- create_figure_6B()
 
-pdf("./figure_6.pdf")
+pdf("./figures/figure_6.pdf")
   print(figure6_B)
   print(figure6_A1)
   print(figure6_A2)
