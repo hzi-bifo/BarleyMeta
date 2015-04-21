@@ -23,4 +23,13 @@ system("rm -f ./figures/*pdf")
 source("figure_2_and_s2.R")
 source("figure_4.R")
 source("figure_5.R")
+source("figure_6A1.R")
+source("figure_6A2.R")
+source("figure_6B.R")
+
+figure6_A1 <- create_figure_6A1()
+
+figure6_A2 <- create_figure_6A2()
+figure6_B <- create_figure_6B()
+
 
