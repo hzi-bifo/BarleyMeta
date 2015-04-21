@@ -11,7 +11,7 @@
 # originally by Ruben Garrido-Oter
 # garridoo@mpipz.mpg.de
 
-### alanysis of beta-diversity (CPCoA)
+### ananlysis of beta-diversity (CPCoA)
 
 # cleanup
 rm(list=ls())
