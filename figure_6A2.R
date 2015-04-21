@@ -1,3 +1,14 @@
+#' script to reproduce the analysis and figures from Bulgarelli et al., 2015
+#'
+#' if you use any of the following code, please cite:
+#'
+#' Davide Bulgarelli, Ruben Garrido-Oter, Philipp C. Münch, Aaron Weiman,
+#' Johannes Dröge, Yao Pan, Alice C. McHardy, Paul Schulze-Lefert
+#' Structure and Function of the Bacterial Root Microbiota in Wild
+#' and Domesticated Barley. Cell Host and Microbe, 2015
+#'
+# originally by Philipp C. Münch
+
 #' This function create the boxplot graphic Figure 6A (top)
 #' Top-ranking protein families under positive selection with significantly 
 #' increased Dn/Ds statistic. The distribution at the top shows the density 
