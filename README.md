@@ -10,5 +10,3 @@ Johannes Dröge, Yao Pan, Alice C. McHardy, Paul Schulze-Lefert
 Structure and Function of the Bacterial Root Microbiota in Wild
 and Domesticated Barley. Cell Host and Microbe, 2015
 
-originally by Ruben Garrido-Oter
-garridoo@mpipz.mpg.de
