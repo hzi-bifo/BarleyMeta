@@ -141,5 +141,5 @@ create_figure_6B <- function(data_folder = "data/figure6/FigureB/TIGR01573/",
     fig_a <- fig_a + theme(legend.position="none")    
     fig <- grid.arrange(fig_a, fig_b, nrow=2, heights=c(3/4,1/4), ncol=1)    
   } 
-  return(fig)
+  return(fig_a)
 }
