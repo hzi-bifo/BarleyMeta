@@ -49,7 +49,7 @@ create_figure_6A1 <- function(input_path = "data/figure6/FigureA/figure_6a_data.
   p <- ggplot(df, aes(x= annotation, y=value/2)) + geom_boxplot(fill="grey80")+ coord_flip() + theme_bw()
   p <- p + xlim(as.character(as.matrix(dnds_data$annotation)))
 
-  p <- p + ylab("dN/dS value") + xlab(" ") + xlim(0,1.8) 
+#  p <- p + xlim(0,1.8) # + ylab("dN/dS value") + xlab(" ")
   p <- p + theme(axis.ticks=element_blank(), panel.border=element_blank(),axis.title.x=element_blank(),axis.title.y=element_blank()) # for 2 plots 2
   p <- p + geom_hline(yintercept = 0.759840522, color="darkgreen", linetype=5) 
   
