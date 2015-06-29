@@ -12,7 +12,7 @@
 #' sliding_window()
 sliding_window <- function(dN, dS, gap_data, w_size=10, g_threshold=0.2){
   require(zoo)
-  dNdS_window <- rep(0,nrow(dnds_data))
+  dNdS_window <- rep(0,length(dN))
   if (w_size>0){
     dN_window <- rollsum(dN, w_size, fill = list(NA, NULL, NA))
     dS_window <- rollsum(dS, w_size, fill = list(NA, NULL, NA))
@@ -25,7 +25,7 @@ sliding_window <- function(dN, dS, gap_data, w_size=10, g_threshold=0.2){
   # iterate over window and find significant windows with FDR correction
   dN_all <- sum(dN, na.rm=T)
   dS_all <- sum(dS, na.rm=T)
-  window <- rep(1, nrow(dnds_data))
+  window <- rep(1, length(dN))
   for (i in 1:length(dNdS_window)){
     if (dNdS_gap[i] < g_threshold){ 
       if (!is.na(dN_window[i]) && !is.na(dS_window[i])){
